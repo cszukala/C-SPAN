@@ -6,7 +6,7 @@ for line in f.readlines():
     if line[0] == '/':
         arr.append(line)
 baseur = "https://iphone.c-spanvideo.org"
-f = open('C:/Users/Carter Szukala/Documents/Advent/video_files/'+sys.argv[1]+'.mp4', 'wb')
+f = open('__dirname'+sys.argv[1]+'.mp4', 'wb')
 for files in arr:
     print(baseur+files)
     header = {'Host': 'iphone.c-spanvideo.org',
